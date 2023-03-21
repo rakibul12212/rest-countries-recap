@@ -6,9 +6,9 @@
 
 .country {
     border: 3px solid goldenrod;
-    background-color: aquamarine;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 20px;
+    background-color: aquamarine;
 }
 
 .country img {
