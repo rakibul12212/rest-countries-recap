@@ -35,12 +35,14 @@ displayCountries = countries => {
 
 
 //option-2
-const getCountryHTML = ({ name, flags }) => { //perameter er modde dis structureing [const getCountryHTML = country => {
+const getCountryHTML = ({ name, flags, area, region }) => { //perameter er modde dis structureing [const getCountryHTML = country => {
 
     //  (details)   const { name, flags } = country;  "country=country={name,flags}"]
     return `
          <div class="country">
            <h2>${name.common}</h2>
+           <p>Area:${area}</p>
+           <p>Contient:${region}</p>
             <img src="${flags.png}">
          </div>
          `
